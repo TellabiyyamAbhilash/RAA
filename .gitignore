@@ -1,0 +1,35 @@
+# Nested upstream git metadata (do not publish)
+.git_pflib_upstream/
+PFLlib/.git_pflib_upstream/
+
+# Generated datasets and raw downloads (too large for GitHub)
+rawdata/
+**/rawdata/**
+*.npz
+*.tar.gz
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Models and binary experiment artifacts
+**/system/models/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
